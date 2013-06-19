@@ -15,5 +15,8 @@ define(function (require, exports, module) {
     fileExtensions: ["haml"],
     blockComment: ["-#", "  "],
     lineComment: ["-#"]
-});  
+  });
+
+  language = LanguageManager.getLanguage("ruby");
+  language.setLineCommentSyntax("#");  
 });
