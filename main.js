@@ -16,4 +16,6 @@ define(function (require, exports, module) {
         blockComment: ["-#", "  "],
         lineComment: ["-#"]
     });
+    
+    exports.CodeHints = require("CodeHints/main");
 });

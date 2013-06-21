@@ -4,6 +4,7 @@
     "description": "Ruby Enhancements for Brackets Editor",
     "homepage": "https://github.com/TheresNoBox/Brackets-Ruby",
     "version": "1.0.0",
+    "keywords": [".rb", ".haml", ".erb"],
     "author": "Bill Centinaro <Bill@TheresNoBox.net> (http://TheresNoBox.net)",
     "license": "MIT",
     "engines": {
